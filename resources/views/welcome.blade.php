@@ -114,7 +114,7 @@
                 <br>
             <div class="content">
                 <div class="title m-b-md">
-                    <br><b>Buying House</b>
+                    <br><b>Becho</b>
                 </div>
 
                 <div class="links">
@@ -124,7 +124,7 @@
                     <a href="{{ url('/theme/myHome') }}">News</a>
                     <a href="https://blog.laravel.com">Search</a>
                     <a href="{{ url('/index') }}">Index</a>
-                    <a href="https://forge.laravel.com">lol</a>
+                    <a href="https://forge.laravel.com">about</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>
