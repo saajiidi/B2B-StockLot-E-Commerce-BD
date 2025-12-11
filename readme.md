@@ -26,7 +26,7 @@ A comprehensive B2B e-commerce platform specifically designed for garments tradi
 
 ## Technology Stack
 
-- **Backend**: Laravel 5.8 (PHP Framework)
+- **Backend**: Laravel 10 (PHP 8.1+)
 - **Frontend**: Blade Templates with Bootstrap
 - **Database**: MySQL
 - **Authentication**: Laravel Auth
@@ -35,7 +35,7 @@ A comprehensive B2B e-commerce platform specifically designed for garments tradi
 ## Installation
 
 ### Prerequisites
-- PHP >= 7.1.3
+- PHP >= 8.1
 - Composer
 - MySQL
 - Node.js & NPM
