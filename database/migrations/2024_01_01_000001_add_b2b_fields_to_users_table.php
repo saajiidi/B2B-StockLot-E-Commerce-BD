@@ -14,7 +14,7 @@ class AddB2bFieldsToUsersTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('username')->unique()->after('email');
+
             $table->enum('user_type', ['buyer', 'seller', 'both'])->default('buyer')->after('username');
             $table->string('company_name')->nullable()->after('user_type');
             $table->string('business_license')->nullable()->after('company_name');
@@ -42,10 +42,21 @@ class AddB2bFieldsToUsersTable extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             $table->dropColumn([
-                'username', 'user_type', 'company_name', 'business_license',
-                'phone', 'address', 'city', 'country', 'postal_code',
-                'website', 'description', 'is_verified', 'is_active',
-                'credit_limit', 'payment_terms', 'avatar'
+                'user_type',
+                'company_name',
+                'business_license',
+                'phone',
+                'address',
+                'city',
+                'country',
+                'postal_code',
+                'website',
+                'description',
+                'is_verified',
+                'is_active',
+                'credit_limit',
+                'payment_terms',
+                'avatar'
             ]);
         });
     }
